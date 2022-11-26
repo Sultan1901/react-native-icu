@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "r0x",
-    "slug": "r0x",
+    "name": "react-native-icu",
+    "slug": "react-native-icu",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
