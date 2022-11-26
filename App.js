@@ -76,10 +76,11 @@ export default function App() {
   return (
     <View style={styles.container}>
       <Image
+        
         source={{
           uri: "https://upload.wikimedia.org/wikipedia/commons/b/b0/ICU_Medical_Logo_at_6.49.04_PM.png",
         }}
-        style={{ width: 100, height: 100, marginBottom: 55 }}
+        style={{ width: 120, height: 100, marginBottom: 55 }}
       />
       <Text style={[styles.bigBlue]}>ICU Calculator</Text>
       <View style={styles.flex}>
@@ -141,7 +142,7 @@ export default function App() {
         </>
       )}
       <View style={[styles.footer]}>
-        <Text>Coded by Sultan Alharbi - p04x@hotmail.com</Text>
+        <Text>By Sultan Alharbi - p04x@hotmail.com</Text>
         <Text>All results tested by Nutrition team</Text>
       </View>
     </View>
@@ -156,7 +157,7 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
   footer: {
-    marginTop: 230,
+    marginTop: 190,
     color: "black",
     fontWeight: "bold",
     alignItems: "center",
@@ -184,9 +185,9 @@ const styles = StyleSheet.create({
   red: {
     color: "black",
     fontWeight: "bold",
-    fontSize: 15,
+    fontSize: 12,
     marginBottom: 5,
-    margin: 7,
+    margin: 6,
   },
   input: {
     borderWidth: 1,
@@ -195,6 +196,6 @@ const styles = StyleSheet.create({
     margin: 4,
     borderRadius: 6,
     width: 100,
+    height: 40,
   },
 });
-
