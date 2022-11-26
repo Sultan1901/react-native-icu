@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "react-native-icu",
-    "slug": "react-native-icu",
+    "name": "calculator",
+    "slug": "calculator",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -18,16 +18,23 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.rom4n.ICU"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#FFFFFF"
-      }
+      },
+      "package": "com.rom4n.ICU"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "16ecefb6-f24d-4ad1-b77c-79e30451a054"
+      }
     }
   }
 }
